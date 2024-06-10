@@ -183,17 +183,17 @@
 
 	<div class="gap-2 mt-2">
 		<div>
-			<button class="btn btn-sm m-2 p-2" on:click={() => copyToClipboard(outputData.Default)}>
+			<button class="btn btn-md m-2" on:click={() => copyToClipboard(outputData.Default)}>
 				Default: {outputData.Default}
 			</button>
 		</div>
 		<div>
-			<button class="btn btn-sm m-2 p-2" on:click={() => copyToClipboard(outputData.Default)}>
+			<button class="btn btn-md m-2" on:click={() => copyToClipboard(outputData.Default)}>
 				Config A: {outputData.A}
 			</button>
 		</div>
 		<div>
-			<button class="btn btn-sm m-2 p-2" on:click={() => copyToClipboard(outputData.Default)}>
+			<button class="btn btn-md m-2" on:click={() => copyToClipboard(outputData.Default)}>
 				Config B: {outputData.B}
 			</button>
 		</div>
